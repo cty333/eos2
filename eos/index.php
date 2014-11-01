@@ -33,6 +33,23 @@ class A1 extends A
 		$userName='';
 		return ;
 	}	
+	
+	public function permissionCheck()
+	{
+		$functionPermission;
+		$wdPermission;
+		$ckPermission;
+		$virtualRolePermision;
+		$otherPermission;
+	}
+	public function djList()
+	{
+		$djList;
+		$djH;
+		$djB;
+		$djS;
+		$djF;
+	}
 	public function run()
 	{
 		$a="";

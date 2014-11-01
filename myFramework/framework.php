@@ -2,7 +2,7 @@
 class A
 {
 	public function style($content){return '<p style="text-align:center;">'.$content.'</p>';}
-	public function table($a,$align="center")
+	public function table($a,$align="center") //20141029，关于这个表格函数，已经很完善了。扩展的东西，
 	{
 		$rr=count($a);
 		$rc=count($a[0]);
